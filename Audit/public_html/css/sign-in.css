@@ -19,6 +19,7 @@ body{
     float:right ;
     margin-top: 1.3rem;
     padding-right:1rem;
+    cursor: pointer;
 }
 .padding-top{
     padding-top: 1rem;
