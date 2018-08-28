@@ -1,3 +1,26 @@
+html {
+    height: 100%;
+}
 body {
     font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+}
+header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20%;
+    right: 0;
+    bottom: 0;
+    background: url(../images/Background.png) no-repeat bottom right;
+    background-size: 100% 40%;
+}
+
+header .logo-text {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
 }
