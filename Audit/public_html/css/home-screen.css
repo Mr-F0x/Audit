@@ -1,7 +1,23 @@
-
-body{
+html {
+    height: 100%;
+}
+body {
     font-size: 15px;
-    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+}
+header:before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    right: 0;
+    bottom: -33%;
+    background: url(../images/Background.png) no-repeat bottom right;
+    background-size: 100% 30rem;
+    transform: rotate(360deg);
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
@@ -14,9 +30,10 @@ body{
 }
 
 .icone{
-    float:right ;
+    float: right;
     margin-top: 1.3rem;
     padding-right:1rem;
+    cursor: pointer;
 }
 .padding-top{
     padding-top: 1rem;
@@ -31,6 +48,3 @@ body{
     margin-top:6rem;
 
 }
-
-
-
