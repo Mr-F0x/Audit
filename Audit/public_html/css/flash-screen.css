@@ -15,9 +15,9 @@ header:before {
     top: 30%;
     left: -20%;
     right: 0;
-    bottom: 0;
+    bottom: -33%;
     background: url(../images/Background.png) no-repeat bottom right;
-    background-size: 100% 40%;
+    background-size: 100% 30rem;
 }
 header {
     margin-top: 15rem;
