@@ -13,14 +13,14 @@ nav {
     padding-right: 2rem;
 }
 .align-right nav {
-        line-height: 2.2rem;
+    line-height: 2.2rem;
 }
 nav ul {
     padding: 0;
 }
 nav li {
     list-style: none;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
 }
 nav ul ul {
     padding: 0;
