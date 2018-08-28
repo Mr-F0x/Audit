@@ -2,6 +2,7 @@
 body{
     font-size: 15px;
     overflow-x: hidden;
+    
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
@@ -11,6 +12,7 @@ body{
     margin-top:1rem;
     color:white;
     padding-left:1rem;
+     font-family: 'Fira Sans', sans-serif;
 }
 
 .icone{
@@ -29,7 +31,36 @@ body{
 .masque{
     text-align:center;
     margin-top:6rem;
-
+    font-family: 'Fira Sans', sans-serif;
+}
+.masque p{
+    padding-top:0.5rem;
+}
+.password-container{
+   
+    padding-top:1rem;
+}
+ .white-point{
+    position: absolute;
+    content: "";
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border: 1px solid rgba(163, 162, 172, 0.60);
+    border-radius: 100%;
+    margin-left:9rem;
+   
+    
+}
+ .blue-point{
+    position: absolute;
+    content: "";
+    height: 2rem;
+    width: 2rem;
+    background-color: #3827B4;
+    border-radius: 100%;
+    margin-left:9rem;
+    
 }
 
 
