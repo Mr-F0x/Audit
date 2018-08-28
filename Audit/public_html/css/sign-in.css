@@ -6,7 +6,7 @@ body{
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
     height:4em;
-   
+
 }
 .logo{
     margin-top:1rem;
@@ -15,21 +15,22 @@ body{
 }
 
 .icone{
-  float:right ;
-  margin-top: 1.3rem;
-  padding-right:1rem;
+    float:right ;
+    margin-top: 1.3rem;
+    padding-right:1rem;
 }
 .padding-top{
     padding-top: 1rem;
-   text-align: center;
+    text-align: center;
 }
 .padding-top a{
     color:white;
+    font-family: 'Fira Sans', sans-serif;
 }
 .masque{
     text-align:center;
     margin-top:6rem;
-   
+
 }
 
 
