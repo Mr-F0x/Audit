@@ -1,8 +1,17 @@
-
 body{
     font-size: 15px;
     overflow-x: hidden;
     
+}
+body:after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    right: 0;
+    bottom: -33%;
+    background: url(../images/Background.png) no-repeat bottom right;
+    background-size: 100% 30rem;
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
