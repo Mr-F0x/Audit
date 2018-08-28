@@ -1,11 +1,32 @@
+
 body{
     font-size: 15px;
     overflow-x: hidden;
 }
 .logo-container{
-    background-color:#6C18A4;
-    height:8rem;
+    background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
+    height:4em;
+   
+}
+.logo{
+    margin-top:1rem;
+    color:white;
+    padding-left:1rem;
 }
 
+.icone{
+  float:right ;
+  margin-top: 1.3rem;
+  padding-right:1rem;
+}
+.padding-top{
+    padding-top: 1rem;
+   
+}
+.masque{
+    text-align:center;
+    margin-top:6rem;
+    padding-right:4rem;
+}
 
 
