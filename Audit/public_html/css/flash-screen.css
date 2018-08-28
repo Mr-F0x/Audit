@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    overflow: hidden;
 }
 body {
     font-size: 15px;
@@ -11,16 +12,21 @@ body {
 header:before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 20%;
     left: -20%;
     right: 0;
     bottom: 0;
     background: url(../images/Background.png) no-repeat bottom right;
     background-size: 100% 40%;
 }
-
-header .logo-text {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 500;
+header {
+    margin-top: 11rem;
+}
+header .logo-container img {
+    height: auto;
+    width: 11rem;
+}
+main .group-container img {
+    height: auto;
+    width: 11rem;
 }
