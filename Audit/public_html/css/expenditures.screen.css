@@ -28,7 +28,12 @@ nav ul ul {
 nav a {
     text-decoration: none;
 }
-
+nav a.negative {
+    color: #E61EAD;
+}
+nav a.positive {
+    color: #3827B4;
+}
 .align-left nav > ul > li > a:before {
     position: absolute;
     content: "";
