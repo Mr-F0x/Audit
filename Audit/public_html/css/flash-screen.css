@@ -12,7 +12,7 @@ body {
 header:before {
     content: "";
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: -20%;
     right: 0;
     bottom: 0;
@@ -20,11 +20,14 @@ header:before {
     background-size: 100% 40%;
 }
 header {
-    margin-top: 11rem;
+    margin-top: 15rem;
 }
 header .logo-container img {
     height: auto;
     width: 11rem;
+}
+main .group-container {
+    margin-top: 2rem;
 }
 main .group-container img {
     height: auto;
