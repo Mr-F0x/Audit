@@ -15,7 +15,10 @@ body:before{
     transform: translateY(-60%);
     z-index: -1;
 }
-
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
     height: 4em;
@@ -46,19 +49,19 @@ body:before{
     text-align: center;
     margin-top: 6rem;
     font-family: 'Fira Sans', sans-serif;
-    
-    
-    
+
+
+
 
 }
 .masque p{
     padding-top:1.5rem;
     font-family: 'Fira Sans', sans-serif;
     text-decoration:underline;
-    
+
     margin-top: 1.5rem;
-    
-   
+
+
 
 }
 
