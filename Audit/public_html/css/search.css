@@ -62,11 +62,13 @@ body:before{
     color:white;
     text-align:center;
 }
+.margin-top {
+    margin-top: 10rem;
+}
 nav {
     padding-left:3rem;
 
 }
-
 .align-right nav {
     line-height:2.3rem;
     color:#3827B4;
