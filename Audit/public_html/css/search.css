@@ -6,9 +6,23 @@
 body{
     font-size: 15px;
     overflow: hidden;
+  
+}
+body:before{
+    content: "";
+    position: absolute;
+    top:3.7rem;
+    left:-3rem;
+    right:-6rem;
+    bottom:5rem;
+    background: url(../images/Background.png) no-repeat top right;
+    transform:rotate(180deg);
+    background-size: 100% 30rem;
+    height:15rem;
+
+    
     
 }
-
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
     height: 4em;
@@ -27,59 +41,69 @@ body{
     cursor: pointer;
 }
 .padding-top{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     text-align: center;
     
 }
 .padding-top a{
     color:white;
     font-family: 'Fira Sans', sans-serif;
+    text-align: center;
 }
 .masque{
     text-align:center;
-    margin-top:6rem;
+    padding:5rem;
     font-family: 'Fira Sans', sans-serif;
-    
-   
+    position: relative;
+   bottom:  2rem;
+}
+.masque a{
+  color: white;
+   padding-top:1rem;  
 }
 .masque p{
-    padding-top:0.5rem;
+    padding-top:1rem;
     font-family: 'Fira Sans', sans-serif;
     text-decoration:underline;
-}
-.align-left {
-    float: left;
+    color:white;
+    text-align:center;
 }
 nav {
     padding-left:3rem;
+    
 }
-.align-right {
-    float: right;
-    padding-right: 2rem;
-}
+
 .align-right nav {
-        line-height: 2.2rem;
+    line-height:2.3rem;
+    color:#3827B4;
+    
+}
+.align-right li{
+    list-style: none;
 }
 nav ul {
     padding: 0;
+    list-style: none;
+}
+.grey{
+    color: #A3A2AC;
+    
+    
 }
 nav li {
-    list-style: none;
-    margin-bottom: 2rem
+   margin-bottom: 2rem;
 }
-nav ul ul {
-    padding: 0;
-}
-nav a {
-    text-decoration: none;
-}
-nav a.negative {
-    color: #E61EAD;
-}
-nav a.positive {
-    color: #3827B4;
-}
-.align-left nav > ul > li > a:before {
+.align-left nav > ul > li:before {
+    position: absolute;
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    background-color: #3827B4;
+    border: 1px solid rgba(163, 162, 172, 0.60);
+    border-radius: 100%;
+    margin-left: -2rem;
+    margin-top: 0.3rem;
+}.align-left nav > ul > li.is-active:before {
     position: absolute;
     content: "";
     height: 1rem;
@@ -88,15 +112,6 @@ nav a.positive {
     border: 1px solid rgba(163, 162, 172, 0.60);
     border-radius: 100%;
     margin-left: -2rem;
-    margin-top: 0.7rem;
+    margin-top: 0.3rem;
 }
-nav > ul > li > a.is-active:before {
-    position: absolute;
-    content: "";
-    height: 1rem;
-    width: 1rem;
-    background-color: #3827B4;
-    border-radius: 100%;
-    margin-left: -2rem;
-    margin-top: 0.7rem;
-}
+

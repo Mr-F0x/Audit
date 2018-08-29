@@ -17,10 +17,10 @@ header:before {
     right: 0;
     bottom: -33%;
     background: url(../images/Background.png) no-repeat bottom right;
-    background-size: 100% 30rem;
+    background-size: 100% 60%;
 }
 header {
-    margin-top: 15rem;
+    margin-top: 13rem;
 }
 header .logo-container img {
     height: auto;
