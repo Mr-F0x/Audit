@@ -4,11 +4,10 @@ body{
 body:before{
     content: "";
     position: absolute;
-    top: 0;
     left: -1%;
     right: 0;
     bottom: 0;
-    top: 0px;
+    top: 0;
     background: url(../images/Background-rotated.png) no-repeat bottom right;
     background-size: 100% 60%;
     transform: translateY(-55rem);
