@@ -1,7 +1,37 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0;   
 }
+
+
+
+
+.logo-container{
+    background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
+    height: 4em;
+}
+.logo{
+    margin-top:1rem;
+    color:white;
+    padding-left:1rem;
+     font-family: 'Fira Sans', sans-serif;
+}
+.icone{
+
+    margin-top: 1.3rem;
+    padding-right:1rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 .align-left {
     float: left;
 }
