@@ -61,17 +61,13 @@ body:before{
     color:white;
     text-align:center;
 }
-<<<<<<< HEAD
 .margin-top {
     margin-top: 10rem;
-=======
+}
 .masque i{
     font-size:1.5rem;
     color:white;
     padding-right:22em;
- 
-   
->>>>>>> 7321bbff35427784b6fdc5d7651a6e851c730a8c
 }
 nav {
     padding-left:3rem;
