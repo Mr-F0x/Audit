@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+body{
+    font-size: 15px;
+}
+[class^="col-"], [class*=" col-"] {
+    padding: 0;
+    margin: 0;
+}
+
+=======
 html {
     height: 100%;
 }
@@ -48,3 +58,4 @@ header:before {
     margin-top:6rem;
 
 }
+>>>>>>> 3aa87c3fe6c89d55cd5ca3cb46a50470b699d840
