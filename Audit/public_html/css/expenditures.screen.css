@@ -74,6 +74,7 @@ nav {
 .align-right {
     float: right;
     padding-right: 2rem;
+    text-align: right;
 }
 .align-right nav {
     line-height: 2.2rem;
@@ -90,6 +91,7 @@ nav ul ul {
 }
 nav a {
     text-decoration: none;
+    color: black;
 }
 nav a.negative {
     color: #E61EAD;
