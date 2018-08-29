@@ -1,18 +1,14 @@
+ 
+  /*  Created on : 29-août-2018, 9:23:06
+    Author     : Nathalie
+*/
+
 body{
     font-size: 15px;
     overflow: hidden;
     
 }
-body:after {
-    content: "";
-    position: absolute;
-    top: 30%;
-    left: -20%;
-    right: 0;
-    bottom: -33%;
-    background: url(../images/Background.png) no-repeat bottom right;
-    background-size: 100% 30rem;
-}
+
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
     height: 4em;
@@ -23,6 +19,7 @@ body:after {
     padding-left:1rem;
      font-family: 'Fira Sans', sans-serif;
 }
+
 .icone{
     float:right ;
     margin-top: 1.3rem;
@@ -30,8 +27,9 @@ body:after {
     cursor: pointer;
 }
 .padding-top{
-    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
+    
 }
 .padding-top a{
     color:white;
@@ -41,35 +39,64 @@ body:after {
     text-align:center;
     margin-top:6rem;
     font-family: 'Fira Sans', sans-serif;
+    
+   
 }
 .masque p{
     padding-top:0.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration:underline;
 }
-.password-container{
-   margin-left: 7rem;
-    padding-top:1rem;
+.align-left {
+    float: left;
 }
- .white-point{
+nav {
+    padding-left:3rem;
+}
+.align-right {
+    float: right;
+    padding-right: 2rem;
+}
+.align-right nav {
+        line-height: 2.2rem;
+}
+nav ul {
+    padding: 0;
+}
+nav li {
+    list-style: none;
+    margin-bottom: 2rem
+}
+nav ul ul {
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+}
+nav a.negative {
+    color: #E61EAD;
+}
+nav a.positive {
+    color: #3827B4;
+}
+.align-left nav > ul > li > a:before {
     position: absolute;
     content: "";
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
+    width: 1rem;
     background-color: white;
     border: 1px solid rgba(163, 162, 172, 0.60);
-<<<<<<< HEAD
-    border-radius: 100%;  
-=======
     border-radius: 100%;
->>>>>>> 593e128c3cab1ad3b2ce6f992b4df63a2856c6f0
+    margin-left: -2rem;
+    margin-top: 0.7rem;
 }
- .blue-point{
+nav > ul > li > a.is-active:before {
     position: absolute;
     content: "";
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
+    width: 1rem;
     background-color: #3827B4;
-    border-radius: 100%;    
+    border-radius: 100%;
+    margin-left: -2rem;
+    margin-top: 0.7rem;
 }
-
-
-
