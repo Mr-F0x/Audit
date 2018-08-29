@@ -37,7 +37,6 @@ body:before{
 .padding-top{
     padding-bottom: 2rem;
     text-align: center;
-
 }
 .padding-top a{
     color:white;
@@ -70,7 +69,6 @@ body:before{
 }
 nav {
     padding-left:3rem;
-
 }
 .align-right nav {
     line-height:2.3rem;
@@ -86,8 +84,6 @@ nav ul {
 }
 .grey{
     color: #A3A2AC;
-
-
 }
 nav li {
     margin-bottom: 2rem;
