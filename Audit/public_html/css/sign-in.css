@@ -1,7 +1,7 @@
 body{
     font-size: 15px;
     overflow: hidden;
-    
+
 }
 body:after {
     content: "";
@@ -22,7 +22,7 @@ body:after {
     margin-top:1rem;
     color:white;
     padding-left:1rem;
-     font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 .icone{
     float:right ;
@@ -47,10 +47,10 @@ body:after {
     padding-top:0.5rem;
 }
 .password-container{
-   margin-left: 7rem;
+    margin-left: 7rem;
     padding-top:1rem;
 }
- .white-point{
+.white-point{
     position: absolute;
     content: "";
     height: 2rem;
@@ -60,7 +60,7 @@ body:after {
     border-radius: 100%;
     border-radius: 100%;
 }
- .blue-point{
+.blue-point{
     position: absolute;
     content: "";
     height: 2rem;
@@ -68,6 +68,3 @@ body:after {
     background-color: #3827B4;
     border-radius: 100%;    
 }
-
-
-

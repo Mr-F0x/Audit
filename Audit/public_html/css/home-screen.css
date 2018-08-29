@@ -4,7 +4,7 @@ html {
 body{
     font-size: 15px;
     overflow: hidden;
-    
+
 }
 body:after {
     content: "";
@@ -26,10 +26,10 @@ body:after {
     height: 4em;
 }
 .logo{
-    margin-top:1rem;
+    margin-top: 1rem;
     color:white;
-    padding-left:1rem;
-     font-family: 'Fira Sans', sans-serif;
+    padding-left: 1rem;
+    font-family: 'Fira Sans', sans-serif;
 }
 .icone{
     float:right ;
