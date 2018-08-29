@@ -1,17 +1,20 @@
 body{
     font-size: 15px;
-    overflow: hidden;
-    
 }
 body:after {
     content: "";
     position: absolute;
-    top: 30%;
+    top: 0;
     left: -20%;
     right: 0;
-    bottom: -33%;
+    bottom: 0;
     background: url(../images/Background.png) no-repeat bottom right;
-    background-size: 100% 30rem;
+    background-size: 100% 60%;
+    transform: translateY(9rem);
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
@@ -21,7 +24,7 @@ body:after {
     margin-top:1rem;
     color:white;
     padding-left:1rem;
-     font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 .icone{
     float:right ;
@@ -46,10 +49,10 @@ body:after {
     padding-top:0.5rem;
 }
 .password-container{
-   margin-left: 7rem;
+    margin-left: 7rem;
     padding-top:1rem;
 }
- .white-point{
+.white-point{
     position: absolute;
     content: "";
     height: 2rem;
@@ -59,7 +62,7 @@ body:after {
     border-radius: 100%;
     border-radius: 100%;
 }
- .blue-point{
+.blue-point{
     position: absolute;
     content: "";
     height: 2rem;
@@ -67,6 +70,3 @@ body:after {
     background-color: #3827B4;
     border-radius: 100%;    
 }
-
-
-

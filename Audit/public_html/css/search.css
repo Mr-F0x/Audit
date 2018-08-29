@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  
 /*  Created on : 29-août-2018, 9:23:06
   Author     : Nathalie
@@ -7,10 +8,15 @@ body{
     font-size: 15px;
     overflow: hidden;
 
+=======
+body{
+    font-size: 15px;
+>>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
 }
 body:before{
     content: "";
     position: absolute;
+<<<<<<< HEAD
     top:3.7rem;
     left:-3rem;
     right:-6rem;
@@ -29,6 +35,20 @@ body:before{
     
     
 >>>>>>> b5ae12aa534e858f18d29c24fe9dececd2a9734f
+=======
+    top: 0;
+    left: -1%;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+    background: url(../images/Background-rotated.png) no-repeat bottom right;
+    background-size: 100% 60%;
+    transform: translateY(-55rem);
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+>>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
@@ -69,30 +89,50 @@ body:before{
     color: #A3A2AC;  
 =======
     position: relative;
-   bottom:  2rem;
+    bottom:  2rem;
 }
 .masque a{
+<<<<<<< HEAD
   color: white;
    padding-top:1rem;  
 >>>>>>> b5ae12aa534e858f18d29c24fe9dececd2a9734f
+=======
+    color: white;
+    padding-top:1rem;  
+>>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
 }
 .masque p{
     padding-top:1rem;
     font-family: 'Fira Sans', sans-serif;
+<<<<<<< HEAD
     text-decoration:underline;
 <<<<<<< HEAD
     color: #A3A2AC;
 
 =======
+=======
+>>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
     color:white;
     text-align:center;
 >>>>>>> b5ae12aa534e858f18d29c24fe9dececd2a9734f
 }
+.margin-top {
+    margin-top: 10rem;
+}
+.masque i{
+    font-size:1.5rem;
+    color:white;
+    padding-right:22em;
+}
 nav {
     padding-left:3rem;
+<<<<<<< HEAD
 
 }
+=======
+>>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
 
+}
 .align-right nav {
     line-height:2.3rem;
     color:#3827B4;
