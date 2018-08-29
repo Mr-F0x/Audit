@@ -1,7 +1,5 @@
 body{
     font-size: 15px;
-    overflow: hidden;
-
 }
 body:before{
     content: "";
@@ -29,7 +27,6 @@ body:before{
     padding-left:1.5rem;
     font-family: 'Fira Sans', sans-serif;
 }
-
 .icone{
     float:right ;
     margin-top: 1.5rem;
@@ -39,7 +36,6 @@ body:before{
 .padding-top{
     padding-bottom: 1rem;
     text-align: center;
-
 }
 .padding-top a{
     color: white;
@@ -49,22 +45,13 @@ body:before{
     text-align: center;
     margin-top: 6rem;
     font-family: 'Fira Sans', sans-serif;
-
-
-
-
 }
 .masque p{
     padding-top:1.5rem;
     font-family: 'Fira Sans', sans-serif;
     text-decoration:underline;
-
     margin-top: 1.5rem;
-
-
-
 }
-
 .align-left {
     float: left;
 }
