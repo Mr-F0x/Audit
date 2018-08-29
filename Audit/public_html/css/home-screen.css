@@ -1,36 +1,36 @@
 html {
     height: 100%;
 }
-body {
+body{
     font-size: 15px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    height: 100%;
 }
-header:before {
+body:after {
     content: "";
     position: absolute;
-    top: 30%;
+    top: 0;
     left: -20%;
     right: 0;
-    bottom: -33%;
+    bottom: 0;
     background: url(../images/Background.png) no-repeat bottom right;
-    background-size: 100% 30rem;
-    transform: rotate(360deg);
+    background-size: 100% 60%;
+    transform: translateY(9rem);
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
     height: 4em;
 }
 .logo{
-    margin-top:1rem;
+    margin-top: 1rem;
     color:white;
-    padding-left:1rem;
+    padding-left: 1rem;
+    font-family: 'Fira Sans', sans-serif;
 }
-
 .icone{
-    float: right;
+    float:right ;
     margin-top: 1.3rem;
     padding-right:1rem;
     cursor: pointer;
@@ -46,5 +46,8 @@ header:before {
 .masque{
     text-align:center;
     margin-top:6rem;
-
+    font-family: 'Fira Sans', sans-serif;
+}
+.masque p{
+    padding-top:0.5rem;
 }
