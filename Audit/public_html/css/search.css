@@ -6,17 +6,21 @@
 body{
     font-size: 15px;
     overflow: hidden;
-    
+  
 }
-body:before {
+body:before{
     content: "";
     position: absolute;
-    top: 30%;
-    left: -20%;
-    right: 0;
-    bottom: -33%;
-    background: url(../images/Background.png) no-repeat bottom right;
+    top:3.5rem;
+    left:-2rem;
+    right:-6rem;
+    bottom:2rem;
+    background: url(../images/Background.png) no-repeat top right;
+    transform:rotate(180deg);
     background-size: 100% 30rem;
+   height:12rem;
+  
+    
     
 }
 .logo-container{
@@ -53,13 +57,13 @@ body:before {
    
 }
 .masque a{
-  color:red;  
+  color: #A3A2AC;  
 }
 .masque p{
     padding-top:1rem;
     font-family: 'Fira Sans', sans-serif;
     text-decoration:underline;
-    color:red;
+    color: #A3A2AC;
     
 }
 nav {
