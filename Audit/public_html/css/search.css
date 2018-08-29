@@ -11,17 +11,24 @@ body{
 body:before{
     content: "";
     position: absolute;
-    top:3.5rem;
-    left:-2rem;
+    top:3.7rem;
+    left:-3rem;
     right:-6rem;
-    bottom:2rem;
+    bottom:5rem;
     background: url(../images/Background.png) no-repeat top right;
     transform:rotate(180deg);
     background-size: 100% 30rem;
+<<<<<<< HEAD
     height:12rem;
 
 
 
+=======
+    height:15rem;
+
+    
+    
+>>>>>>> b5ae12aa534e858f18d29c24fe9dececd2a9734f
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
@@ -48,23 +55,38 @@ body:before{
 .padding-top a{
     color:white;
     font-family: 'Fira Sans', sans-serif;
+    text-align: center;
 }
 .masque{
     text-align:center;
-    padding:3rem;
+    padding:5rem;
     font-family: 'Fira Sans', sans-serif;
+<<<<<<< HEAD
 
 
 }
 .masque a{
     color: #A3A2AC;  
+=======
+    position: relative;
+   bottom:  2rem;
+}
+.masque a{
+  color: white;
+   padding-top:1rem;  
+>>>>>>> b5ae12aa534e858f18d29c24fe9dececd2a9734f
 }
 .masque p{
     padding-top:1rem;
     font-family: 'Fira Sans', sans-serif;
     text-decoration:underline;
+<<<<<<< HEAD
     color: #A3A2AC;
 
+=======
+    color:white;
+    text-align:center;
+>>>>>>> b5ae12aa534e858f18d29c24fe9dececd2a9734f
 }
 nav {
     padding-left:3rem;
