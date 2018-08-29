@@ -1,12 +1,12 @@
  
-  /*  Created on : 29-août-2018, 9:23:06
-    Author     : Nathalie
+/*  Created on : 29-août-2018, 9:23:06
+  Author     : Nathalie
 */
 
 body{
     font-size: 15px;
     overflow: hidden;
-  
+
 }
 body:before{
     content: "";
@@ -18,10 +18,10 @@ body:before{
     background: url(../images/Background.png) no-repeat top right;
     transform:rotate(180deg);
     background-size: 100% 30rem;
-   height:12rem;
-  
-    
-    
+    height:12rem;
+
+
+
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
@@ -31,7 +31,7 @@ body:before{
     margin-top:1rem;
     color:white;
     padding-left:1rem;
-     font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .icone{
@@ -43,7 +43,7 @@ body:before{
 .padding-top{
     padding-bottom: 2rem;
     text-align: center;
-    
+
 }
 .padding-top a{
     color:white;
@@ -53,28 +53,28 @@ body:before{
     text-align:center;
     padding:3rem;
     font-family: 'Fira Sans', sans-serif;
-  
-   
+
+
 }
 .masque a{
-  color: #A3A2AC;  
+    color: #A3A2AC;  
 }
 .masque p{
     padding-top:1rem;
     font-family: 'Fira Sans', sans-serif;
     text-decoration:underline;
     color: #A3A2AC;
-    
+
 }
 nav {
     padding-left:3rem;
-    
+
 }
 
 .align-right nav {
     line-height:2.3rem;
     color:#3827B4;
-    
+
 }
 .align-right li{
     list-style: none;
@@ -85,11 +85,11 @@ nav ul {
 }
 .grey{
     color: #A3A2AC;
-    
-    
+
+
 }
 nav li {
-   margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 .align-left nav > ul > li:before {
     position: absolute;
