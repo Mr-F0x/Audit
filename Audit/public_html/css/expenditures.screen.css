@@ -4,16 +4,15 @@ body{
 
 }
 body:before{
-    content:'';
-    background: url(../images/Background.png) no-repeat top right;
+    content: "";
     position: absolute;
-    top:3.5rem;
-    left:-2rem;
-    right: -6rem;
-    bottom: 2rem;
-    background-size:100% 30rem;
-    height:12rem;
-    transform: rotate(180deg);
+    left: -1%;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url(../images/Background-rotated.png) no-repeat bottom right;
+    background-size: 100% 60%;
+    transform: translateY(-60%);
     z-index: -1;
 }
 
@@ -65,10 +64,6 @@ body:before{
 
 .align-left {
     float: left;
-    
-    
-    height-top:3rem;
-    
 }
 nav {
     padding-left: 3rem;
