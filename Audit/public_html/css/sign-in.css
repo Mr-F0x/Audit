@@ -23,7 +23,6 @@ body:after {
     padding-left:1rem;
      font-family: 'Fira Sans', sans-serif;
 }
-
 .icone{
     float:right ;
     margin-top: 1.3rem;
@@ -57,11 +56,7 @@ body:after {
     width: 2rem;
     background-color: white;
     border: 1px solid rgba(163, 162, 172, 0.60);
-    border-radius: 100%;
-
-  
- 
-    
+    border-radius: 100%;  
 }
  .blue-point{
     position: absolute;
@@ -69,9 +64,7 @@ body:after {
     height: 2rem;
     width: 2rem;
     background-color: #3827B4;
-    border-radius: 100%;
- 
-     
+    border-radius: 100%;    
 }
 
 
