@@ -1,41 +1,9 @@
-<<<<<<< HEAD
- 
-/*  Created on : 29-août-2018, 9:23:06
-  Author     : Nathalie
-*/
-
 body{
     font-size: 15px;
-    overflow: hidden;
-
-=======
-body{
-    font-size: 15px;
->>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
 }
 body:before{
     content: "";
     position: absolute;
-<<<<<<< HEAD
-    top:3.7rem;
-    left:-3rem;
-    right:-6rem;
-    bottom:5rem;
-    background: url(../images/Background.png) no-repeat top right;
-    transform:rotate(180deg);
-    background-size: 100% 30rem;
-<<<<<<< HEAD
-    height:12rem;
-
-
-
-=======
-    height:15rem;
-
-    
-    
->>>>>>> b5ae12aa534e858f18d29c24fe9dececd2a9734f
-=======
     top: 0;
     left: -1%;
     right: 0;
@@ -48,7 +16,6 @@ body:before{
 [class^="col-"], [class*=" col-"], .row{
     padding: 0;
     margin: 0;
->>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
@@ -80,40 +47,25 @@ body:before{
     text-align:center;
     padding:5rem;
     font-family: 'Fira Sans', sans-serif;
-<<<<<<< HEAD
-
-
 }
 .masque a{
-    color: #A3A2AC;  
-=======
+    color: #A3A2AC;
     position: relative;
     bottom:  2rem;
 }
 .masque a{
-<<<<<<< HEAD
   color: white;
-   padding-top:1rem;  
->>>>>>> b5ae12aa534e858f18d29c24fe9dececd2a9734f
-=======
+   padding-top:1rem;
     color: white;
-    padding-top:1rem;  
->>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
+    padding-top:1rem;
 }
 .masque p{
     padding-top:1rem;
     font-family: 'Fira Sans', sans-serif;
-<<<<<<< HEAD
     text-decoration:underline;
-<<<<<<< HEAD
     color: #A3A2AC;
-
-=======
-=======
->>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
     color:white;
     text-align:center;
->>>>>>> b5ae12aa534e858f18d29c24fe9dececd2a9734f
 }
 .margin-top {
     margin-top: 10rem;
@@ -124,20 +76,10 @@ body:before{
 }
 nav {
     padding-left:3rem;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-}
-=======
->>>>>>> ed4584d3b6a031d4d6e1e8d10a3b07fc2120617d
-
->>>>>>> 16aa5bef031c596bbec6254b480be5cf0b3d0b26
 }
 .align-right nav {
     line-height:2.3rem;
     color:#3827B4;
-
 }
 .align-right li{
     list-style: none;
@@ -173,4 +115,3 @@ nav li {
     margin-left: -2rem;
     margin-top: 0.3rem;
 }
-
