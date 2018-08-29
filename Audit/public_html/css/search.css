@@ -82,6 +82,7 @@ nav {
 }
 .align-right li{
     list-style: none;
+    margin-bottom: 3rem;
 }
 nav ul {
     padding: 0;
