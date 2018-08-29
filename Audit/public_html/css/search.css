@@ -1,27 +1,21 @@
- 
-  /*  Created on : 29-août-2018, 9:23:06
-    Author     : Nathalie
-*/
-
 body{
     font-size: 15px;
-    overflow: hidden;
-  
 }
 body:before{
     content: "";
     position: absolute;
-    top:3.7rem;
-    left:-3rem;
-    right:-6rem;
-    bottom:5rem;
-    background: url(../images/Background.png) no-repeat top right;
+    top: 0;
+    left: -20%;
+    right: 0;
+    bottom: 0;
+    background: url(../images/Background.png) no-repeat bottom right;
+    background-size: 100% 60%;
+    transform: translateY(9rem);
     transform:rotate(180deg);
-    background-size: 100% 30rem;
-    height:15rem;
-
-    
-    
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
 }
 .logo-container{
     background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
@@ -31,7 +25,7 @@ body:before{
     margin-top:1rem;
     color:white;
     padding-left:1rem;
-     font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .icone{
@@ -43,7 +37,7 @@ body:before{
 .padding-top{
     padding-bottom: 2rem;
     text-align: center;
-    
+
 }
 .padding-top a{
     color:white;
@@ -55,11 +49,11 @@ body:before{
     padding:5rem;
     font-family: 'Fira Sans', sans-serif;
     position: relative;
-   bottom:  2rem;
+    bottom:  2rem;
 }
 .masque a{
-  color: white;
-   padding-top:1rem;  
+    color: white;
+    padding-top:1rem;  
 }
 .masque p{
     padding-top:1rem;
@@ -70,13 +64,13 @@ body:before{
 }
 nav {
     padding-left:3rem;
-    
+
 }
 
 .align-right nav {
     line-height:2.3rem;
     color:#3827B4;
-    
+
 }
 .align-right li{
     list-style: none;
@@ -87,11 +81,11 @@ nav ul {
 }
 .grey{
     color: #A3A2AC;
-    
-    
+
+
 }
 nav li {
-   margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 .align-left nav > ul > li:before {
     position: absolute;
