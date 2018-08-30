@@ -55,10 +55,8 @@ body:before{
     font-family: 'Fira Sans', sans-serif;
     text-decoration:underline;
     margin-top: 1.5rem; 
-    color:white;
-}
-.align-left {
-    float: left; 
+    color: white;
+} 
 }
 nav {
     padding-left: 3rem;
