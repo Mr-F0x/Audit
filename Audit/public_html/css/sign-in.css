@@ -50,8 +50,7 @@ body:after {
     padding-top:0.5rem;
 }
 .password-container{
-    margin-left: 25%;
-    margin-top: 2rem;
+    text-align: center;
 }
 .white-point{
     position: absolute;

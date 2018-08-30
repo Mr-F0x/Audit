@@ -1,7 +1,7 @@
 $(document).ready(function () {
     function changeToPassword() {
         setTimeout(function () {
-           $("#password").attr("type", "password");
+            document.getElementById("password").setAttribute("type", "password");
         }, 500);
     }
 });
