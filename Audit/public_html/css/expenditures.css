@@ -77,14 +77,20 @@ body:before{
 main {
     margin-top: 6rem;
 }
+main .align-left {
+    padding-left: 3rem;
+}
 main .align-left p {
     margin: 0;
     margin-bottom: 0.2rem;
 }
-nav {
-    margin-left: 3rem;
+main span.negative {
+    color: #E61EAD;
 }
-.align-left nav:before {
+main span.positive {
+    color: #3827B4;
+}
+.align-left:before {
     content: "";
     position: absolute;
     border-left: 1px solid black;
@@ -114,12 +120,6 @@ nav a {
     text-decoration: none;
     color: black;
 }
-nav a.negative {
-    color: #E61EAD;
-}
-nav a.positive {
-    color: #3827B4;
-}
 .align-left nav > ul > li > a:before {
     position: absolute;
     content: "";
@@ -131,7 +131,7 @@ nav a.positive {
     margin-left: -2rem;
     margin-top: 0.7rem;
 }
-nav > ul > li > a.is-active:before {
+p.is-active:before {
     position: absolute;
     content: "";
     height: 1rem;
