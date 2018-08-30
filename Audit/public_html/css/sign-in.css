@@ -1,7 +1,7 @@
 body{
     font-size: 15px;
 }
-body:after {
+body:before {
     content: "";
     position: absolute;
     top: 0;
@@ -51,6 +51,20 @@ body:after {
 }
 .password-container{
     text-align: center;
+}
+.password-container input {
+    border: 0;
+    outline: 0;
+    font-size: 7rem;
+    text-align: center;
+    width: 100%;
+    color: transparent;
+    text-shadow: 0 0 0 #3827B4;
+    z-index: -2;
+}
+::placeholder {
+    font-size: 1rem;
+    color: #3827B4;
 }
 .white-point{
     position: absolute;
