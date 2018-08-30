@@ -91,6 +91,9 @@ nav {
     padding-left:3rem;
     padding-top:3rem;
 }
+.align-right {
+    text-align: right;
+}
 .align-right nav {
     line-height:2.3rem;
     color:#3827B4;
