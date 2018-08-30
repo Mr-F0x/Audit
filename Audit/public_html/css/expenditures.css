@@ -52,9 +52,13 @@ body:before{
     margin-top: 1rem;
     white-space: nowrap;
 }
-.font .left, .font .right {
+.font .left {
     display: inline-block;
     text-align: left;
+}
+.font .right {
+    display: inline-block;
+    text-align: center;
 }
 .font .left i {
     margin-left: 1.5rem;
@@ -67,13 +71,13 @@ body:before{
 }
 .masque{
     text-align: center;
-    margin-top: 1rem;
     font-family: 'Fira Sans', sans-serif;
     color: white;
 }
 .masque p{
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    margin-left: -0.5rem;
 }
 main {
     margin-top: 6rem;
@@ -106,28 +110,16 @@ main span.positive {
     margin-left: -1.525rem;
     margin-top: 1.9rem;
 }
-
+.last:before {
+    content: none;
+    border-left: transparent;
+    margin: 0;
+    height: inherit;
+}
 .align-right {
     float: right;
     padding-right: 2rem;
     text-align: right;
-}
-.align-right nav {
-    line-height: 2.2rem;
-}
-nav ul {
-    padding: 0;
-}
-nav li {
-    list-style: none;
-    margin-bottom: 2rem;
-}
-nav ul ul {
-    padding: 0;
-}
-nav a {
-    text-decoration: none;
-    color: black;
 }
 main p:before {
     position: absolute;
