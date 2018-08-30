@@ -93,8 +93,17 @@ nav {
     padding-left:3rem;
     padding-top:3rem;
 }
+.align-left nav:before {
+    content: "";
+    position: absolute;
+    border-left: 1px solid black;
+    height: 43%;
+    margin-left: -1.5rem;
+    margin-top: 1rem;
+}
 .align-right {
-    text-align: right;
+    text-align:right;
+    margin-bottom: 3rem;
 }
 .align-right nav {
     line-height:2.3rem;
