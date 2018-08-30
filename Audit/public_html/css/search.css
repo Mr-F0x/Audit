@@ -37,6 +37,12 @@ body:before{
     padding-bottom: 2rem;
     text-align: center;
 }
+.padding-top img{
+    vertical-align: middle;
+    border-style: none;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+}
 .padding-top a{
     color:white;
     font-family: 'Fira Sans', sans-serif;
