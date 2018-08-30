@@ -1,0 +1,39 @@
+body{
+    font-size: 15px;
+}
+[class^="col-"], [class*=" col-"], .row{
+    padding: 0;
+    margin: 0;
+}
+.logo-container{
+    background-image: linear-gradient(to right, rgba(56, 39, 180, 1) , rgba(108, 24, 164, 1));
+    height: 4em;
+}
+.logo{
+    margin-top:1rem;
+    color:white;
+    padding-left:1rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.icone{
+    float:right ;
+    margin-top: 1.3rem;
+    padding-right:1rem;
+    cursor: pointer;
+}
+.padding-top{
+    padding-top: 1rem;
+    text-align: center;
+}
+.padding-top a{
+    color:white;
+    font-family: 'Fira Sans', sans-serif;
+}
+.masque{
+    text-align:center;
+    margin-top:6rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.masque p{
+    padding-top:0.5rem;
+}
