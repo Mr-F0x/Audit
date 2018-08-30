@@ -44,16 +44,21 @@ body:before{
 .masque{
     text-align: center;
     margin-top: 6rem;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif; 
+}
+.masque a{
+    color: white;
+    padding-top:1rem;
 }
 .masque p{
     padding-top:1.5rem;
     font-family: 'Fira Sans', sans-serif;
     text-decoration:underline;
-    margin-top: 1.5rem;
+    margin-top: 1.5rem; 
+    color:white;
 }
 .align-left {
-    float: left;
+    float: left; 
 }
 nav {
     padding-left: 3rem;
