@@ -59,8 +59,9 @@ body:before {
     text-align: center;
     width: 100%;
     color: transparent;
+    background-color: transparent;
     text-shadow: 0 0 0 #3827B4;
-    z-index: -2;
+    margin-top: -5rem;
 }
 ::placeholder {
     font-size: 1rem;
